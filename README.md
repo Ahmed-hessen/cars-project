@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# CarHub 🚗
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to CarHub! A Next.js project for finding, booking, and renting cars effortlessly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features 🌟
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Car Search & Filtering:** Search by manufacturer and model, filter by fuel type (gas or electricity), and year of manufacture.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Beautiful Car Cards:** Each card showcases a car's picture, name, transmission, drive type, and city MPG.
 
-## Learn More
+3. **Footer Info:** Explore additional information or links in our beautifully designed footer.
 
-To learn more about Next.js, take a look at the following resources:
+4. **Navbar with Logo:** Navigate seamlessly with our stylish CarHub logo on the navbar.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used 🛠️
 
-## Deploy on Vercel
+- Next.js
+- React
+- Rapid API
+- Tailwind CSS
+- TypeScript 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots 📸
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+![Screenshot (58)](https://github.com/Ahmed-hessen/cars-project/assets/128532764/d7fc23e8-b1ce-4392-8d21-9b134fa4d61c)
+
+
+
+![Screenshot (59)](https://github.com/Ahmed-hessen/cars-project/assets/128532764/303d3a92-3c12-4b9b-9b79-5552a3a3b70a)
+
+
+
+![Screenshot (60)](https://github.com/Ahmed-hessen/cars-project/assets/128532764/c57199f9-0549-492c-9fb1-73704e3ab42f)
+
