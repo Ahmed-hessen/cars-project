@@ -1,13 +1,13 @@
-import { SearchManufactureProps } from "@/types";
 import { Combobox, Transition } from "@headlessui/react";
 import Image from "next/image";
 import { manufacturers } from "@/constants";
 import React, { useState, Fragment } from "react";
+import { SearchManuFacturerProps } from "@/types";
 
 const SearchManufacturer = ({
   manufacturer,
-  setManufacturer,
-}: SearchManufactureProps) => {
+  setManuFacturer,
+}: SearchManuFacturerProps) => {
   const [query, setQuery] = useState("");
 
   const filteredManufacturers =
@@ -22,7 +22,7 @@ const SearchManufacturer = ({
 
   return (
     <div className="search-manufacturer">
-      <Combobox value={manufacturer} onChange={setManufacturer}>
+      <Combobox value={manufacturer} onChange={setManuFacturer}>
         <div className="relative w-full">
           <Combobox.Button className="absolute top-[14px]">
             <Image
